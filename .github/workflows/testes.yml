@@ -9,4 +9,11 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
+<<<<<<< HEAD
         uses: cypress-io/github-action@v4
+=======
+        uses: cypress-io/github-action@v4 # use the explicit version number
+        with:
+          build: npm run build
+          start: npm start
+>>>>>>> f500ec61860c9cbbd23a782639dab0644960171c
