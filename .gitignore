@@ -1,0 +1,8 @@
+node_modules
+downloads
+videos
+screenshots
+fixtures
+cypress.config.js
+package.json
+package-lock.json
